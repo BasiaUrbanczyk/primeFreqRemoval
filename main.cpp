@@ -15,14 +15,6 @@ void sieve(bool* ifPrime, int n, vector<int> prime, int* sPrimeFact) {
             sPrimeFact[i * prime[j]] = prime[j] ;
         }
     }
-
-//    for (int i = 2; i <= n; i++) {
-//        if (ifPrime[i]) {
-//            for (int j = i * i; j <= n; j += i) {
-//                ifPrime[j] = false;
-//            }
-//        }
-//    }
 }
 
 
